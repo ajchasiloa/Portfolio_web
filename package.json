@@ -2,11 +2,14 @@
   "name": "3d-earth",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ajchasiloa.github.io/Portfolio_Chasiloa",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@react-three/drei": "^9.112.0",
@@ -20,7 +23,10 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "three": "^0.157.0"
+    "react-router-dom": "^7.3.0",
+    "three": "^0.157.0",
+    "three-stdlib": "^2.35.14",
+    "three.meshline": "^1.4.0"
   },
   "devDependencies": {
     "@types/node": "latest",
@@ -31,6 +37,7 @@
     "eslint-config-next": "latest",
     "postcss": "latest",
     "tailwindcss": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "gh-pages": "^3.2.3"
   }
 }
