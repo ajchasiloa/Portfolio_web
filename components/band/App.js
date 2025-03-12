@@ -139,14 +139,7 @@ export default function App() {
         </Canvas>
       </div>
 
-{/* Sección de SKILLS */}
-{/* Sección de SKILLS */}
-<div className="skills-section text-sm">
-  <h2 className="text-base font-semibold">SKILLS</h2>
-  <p className="text-xs">
-    ✔ Python | ✔ Java | ✔ JavaScript | ✔ C++ | ✔C |✔ Dart|✔ React | ✔ Angular | ✔ Flutter | ✔ Node.js | ✔ Express.js | ✔ BDDS | ✔ GitHub | ✔ Docker | ✔ AWS | ✔ Azure | ✔ TRACCAR | ✔ REST APIs | ✔ Backend| ✔ Frontend |
-  </p>
-</div>
+
 
 
 
